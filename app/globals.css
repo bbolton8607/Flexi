@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: white
+    rgb(var(--background-start-rgb));
+}
+
+.nav {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+
+.logo {
+
+}
+
+.nav-links a {
+  padding-right: 10px;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 72px);
+  /* max-width: 1280px; */
+}
+.hero-description {
+  /* width: 100%; */
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.hero div {
+  width: 100%;
+  max-width: 1280px;
+  
+}
+
+.hero div {
+  /* max-width: 1280px; */
+  
+}
+
+.sign-up {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.sign-up-content {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
