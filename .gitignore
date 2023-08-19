@@ -36,4 +36,4 @@ next-env.d.ts
 
 # files
 firebase-tools-instant-win.exe
-.text*local
+*.txt
